@@ -3622,8 +3622,6 @@ should_compact_retry(struct alloc_context *ac, int order, int alloc_flags,
 	int max_retries = MAX_COMPACT_RETRIES;
 	int min_priority;
 	bool ret = false;
-	int retries = *compaction_retries;
-	enum compact_priority priority = *compact_priority;
 
 	if (!order)
 		return false;
