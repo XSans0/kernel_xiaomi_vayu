@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.14.287 Kernel Configuration
+# Linux/arm64 4.14.289 Kernel Configuration
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -2193,6 +2193,7 @@ CONFIG_SPI_XIAOMI_TP=y
 # CONFIG_TOUCHSCREEN_SYNAPTICS_DSX is not set
 # CONFIG_TOUCHSCREEN_SYNAPTICS_TCM is not set
 # CONFIG_TOUCHSCREEN_RAYDIUM_CHIPSET is not set
+# CONFIG_TOUCHSCREEN_FTS is not set
 CONFIG_TOUCHSCREEN_COMMON=y
 CONFIG_INPUT_MISC=y
 # CONFIG_INPUT_AD714X is not set
