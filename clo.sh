@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Codelinaro Tags
-TAG="LA.UM.9.1.r1-12900.01-SMxxx0.QSSI12.0"
+TAG="LA.UM.9.1.r1-13000-SMxxx0.QSSI13.0"
 
 # Setup functions
 upstream (){
