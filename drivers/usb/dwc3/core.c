@@ -1484,6 +1484,8 @@ static int dwc3_probe(struct platform_device *pdev)
 	dwc->index = count;
 	count++;
 
+	dma_set_max_seg_size(dev, UINT_MAX);
+
 	pm_runtime_allow(dev);
 	dwc3_debugfs_init(dwc);
 	return 0;
